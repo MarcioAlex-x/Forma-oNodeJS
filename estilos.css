@@ -75,6 +75,9 @@ header p{
     font-weight: bold;
     font-size: 16px ;
 }
+#data-hora{
+    font-size: 16px;
+}
 .card-content{
     display: flex;
     flex-direction: column;
