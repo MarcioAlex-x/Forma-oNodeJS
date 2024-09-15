@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+body{
+    background-color: #2f3640;
+    color: #dcdde1;
+}
+header{
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-size: 48px;
+    color: #fbc531;
+}
+h2, h3{
+    color: #e84118;
+}
+header img{
+    margin-top: 40px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+
+}
+header p{
+    font-size: 32px;
+    font-family: "Bebas Neue", system-ui;
+    margin-top: 40px;
+}
+.destaque{
+    font-family: "Bebas Neue", system-ui;
+    color: #e84118;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.licdn.com/dms/image/v2/C4D22AQEkOXNc9NS_4g/feedshare-shrink_1280/feedshare-shrink_1280/0/1678558460297?e=1729123200&v=beta&t=gItHo_GPH-PHf5p1vxL1tLNziivoW4pUKT7bFPM9jJ0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px;
+    color: #dcdde1;
+    height: 100vh;
+    
+}
+.timer h2{
+    font-size: 40px;
+}
+.timer p{
+    font-size: 32px;
+    margin-top: 24px;
+}
+.btn-inscricao{
+    padding: 8px 16px;
+    margin-top: 32px;
+    background-color: #e84118;
+    border: none;
+    border-radius: 8px;
+}
+.btn-inscricao a{
+    text-decoration: none;
+    color: #dcdde1;
+    font-weight: bold;
+    font-size: 16px ;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 40px;
+}
+.card-content h2{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 960px;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.card{
+    background-color: #dcdde1;
+    color: #2f3640;
+    text-align: center;
+    border: 1px solid #d46b51;
+    border-radius: 8px;
+    padding: 40px 16px;
+    font-weight: bold;
+}
+.card .bi{
+    font-size: 32px;
+    color: #e84118;
+}
+.prof-alex{
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prof-alex h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.prof-alex img{
+    width: 80%;
+    border-radius: 16px;
+}
+.experinces{    
+    max-width: 960px;
+    margin: auto
+}
+.experinces p{
+    width: 80%;
+    margin: 24px auto;
+    text-align: center;
+}
+.experinces h3{
+    font-size: 40px;
+    margin-block: 40px;
+    text-align: center;
+}
+.experinces ul{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.experinces ul li{
+    list-style: none;
+    text-align: center;
+}
+.redes{
+    
+    margin-block: 80px;
+}
+.redes  a .bi{
+    font-size: 32px;
+    margin-inline: 32px;
+    color: #dcdde1;
+}
+.grade h2{
+    text-align: center;
+    font-size: 32px;
+}
+.grade ul{
+    max-width: 240px;
+    margin: 40px auto;
+}
+.grade ul li{
+    list-style: circle;
+    font-size: 24px;
+}
+.local{
+    margin-top: 80px;
+}
+.local h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+iframe{
+    width: 100%;
+}
+@media screen and (max-width: 450px){
+    header img{
+        width: 70%;
+        margin: auto;
+    }
+    .timer{
+        text-align: center;
+        padding: 16px;
+        color: #fbc531;
+    }
+    .timer h2{
+        color: #dcdde1;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+        max-width: 80%;
+    }
+}
