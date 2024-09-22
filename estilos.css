@@ -18,6 +18,9 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+header button{
+    margin-bottom: 40px;
+}
 h1{
     font-size: 48px;
     color: #fbc531;

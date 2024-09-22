@@ -1,6 +1,6 @@
 const time = document.getElementById('time')
 
-const dataInicio = new Date('2024-09-21T00:00:00').getTime()
+const dataInicio = new Date('2024-09-28T00:00:00').getTime()
 
 const instervalo = setInterval(()=>{
     const agora = new Date().getTime()
